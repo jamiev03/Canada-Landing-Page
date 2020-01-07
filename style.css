@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     box-sizing: border-box;
@@ -9,4 +10,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-text {
+    margin: 0 auto;
+    align-self: center;
+}
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 290px;
+}
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
