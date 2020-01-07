@@ -22,6 +22,27 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
+}
+.links {
+
+}
+label {
+    font-size: 40px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 35px;
+}
+.logo {
+    font-size: 40px;
+    margin-left: 10rem;
+}
+.social {
+
 }
 .middle-text {
     margin: 0 auto;
@@ -30,6 +51,23 @@ body {
 h1 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 290px;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    line-height: 11rem;
+}
+h2 {
+    font-size: 20px;
+}
+h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 7rem;
+}
+span {
+    color: rgb(2, 72, 100);
 }
 .bottom-bar {
     display: flex;
